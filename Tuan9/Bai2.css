@@ -1,0 +1,43 @@
+﻿.nhapthongtin {
+    width:30%;
+    height:200px;
+    margin:auto;
+    background-color:#DDA0DD;
+    border:1px solid black;
+}
+
+.xuatthongtin {
+    width:30%;
+    height:200px;
+    margin:auto;
+    background-color:#DDA0DD;
+    border:1px solid black;
+}
+
+#btnAdd {
+    margin-left:200px;
+}
+
+#Label1 {
+    margin-left: 20px;
+    font-weight:bold;
+}
+
+#Label2 {
+    margin-left: 20px;
+    font-weight:bold;
+}
+
+#Label3 {
+    margin-left: 20px;
+    font-weight:bold;
+}
+
+#Label5 {
+    margin-left: 20px;
+    font-weight:bold;
+}
+
+#lblName {
+    color: red;
+}

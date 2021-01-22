@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="Bai4_Home.aspx" title="Trang chủ"  description="">
+      <siteMapNode url="Bai4_MenuXML.aspx" title="Xây dựng phần mềm"  description="">
+        <siteMapNode url="Bai4_Java.aspx" title="NN Java" description=""/>
+        <siteMapNode url="Bai4_C.aspx" title="NN C++" description=""/>
+        <siteMapNode url="Bai4_CSharp.aspx" title="NN CSharp" description=""/>
+      </siteMapNode>
+      <siteMapNode url="Bai4_UDWeb.aspx" title="Ứng dụng Web"  description="">
+        <siteMapNode url="Bai4_Ruby.aspx" title="NN Ruby" description=""/>
+        <siteMapNode url="Bai4_JSP.aspx" title="NN JSP" description=""/>
+        <siteMapNode url="Bai4_PHP.aspx" title="NN PHP" description=""/>
+        <siteMapNode url="Bai4_ASPX.aspx" title="NN .Net" description=""/>
+      </siteMapNode>
+      <siteMapNode url="Bai4_CSDL.aspx" title="Cơ sở dữ liệu" description="">
+      </siteMapNode>
+    </siteMapNode>
+</siteMap>

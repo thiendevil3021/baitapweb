@@ -1,0 +1,13 @@
+﻿#DropDownList1,#RadioButtonList1{
+            display:inline;
+        }
+        #Label1,#Label2,#Label3{
+            width:200px;
+            display:inline-block;
+        }
+        #Label4{
+            display:block;
+        }
+        #Button2{
+            margin-left:20px;
+        }

@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Bai5_MASTER.master.cs" Inherits="Bai5_MASTER" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="headder">
+            <div class="icon">
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/logo1_new.png" />
+                 <div class="dangnhap">
+               <h1>Đăng nhập</h1>
+            </div>
+            <div class="sidebar">
+                <br />
+            <asp:TextBox ID="TextBox1" runat="server" Width="224px"  ></asp:TextBox>
+                
+                <br />
+                <br />
+                
+            <asp:TextBox ID="TextBox2" runat="server" Width="224px"></asp:TextBox>
+            <div class="dangnhap">
+               <h1>Đăng nhập</h1>
+            </div>
+            <p>
+                Chưa có tài khoản ?
+                </br>
+                Quên mật khẩu?
+            </p> 
+           <div class="dangnhap">
+               <h1>Tạo tin tuyển dụng</h1>
+            </div>
+                <img src="taotintuyendung.PNG" />
+            </div>
+            </div>
+            <div class="detail">
+                <table>     
+                    <tr>
+                         <td >Quản lý </td>
+                      
+                         <td>Chuyên môn</td>
+                      
+                         <td>Lao động phổ thông</td>
+                       
+                         <td>Bán thời gian</td>
+                      
+                         <td>Tuyển dụng</td>
+                    </tr>
+                </table>
+                <div class="clear"></div>
+            <div class="middle">
+                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+            </asp:ContentPlaceHolder>
+            </div>
+            </div>
+        </div>
+       
+        <div class="footer">
+            <p>Lê Danh Vũ</p>
+            <p>Nhóm 1</p>
+            <p>2001181427</p>
+        </div>
+    </form>
+</body>
+</html>

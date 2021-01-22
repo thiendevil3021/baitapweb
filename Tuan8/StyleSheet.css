@@ -1,0 +1,36 @@
+﻿.login1 {
+    width: 30%;
+    margin:auto;
+    background-color:pink;
+}
+
+#Label1 {
+    font-weight:bold;
+    margin-left:100px;
+    font-size:15px;
+}
+
+#Label2 {
+    font-weight:bold;
+    margin-left:10px;
+    font-size:15px;
+}
+
+#Label3 {
+    font-weight:bold;
+    margin-left:10px;
+    font-size:15px;
+}
+
+#Button1 {
+    border-radius:5px;
+    margin-left:200px;
+}
+
+#TextBox1 {
+    margin-left: 10px;
+}
+
+#TextBox2 {
+    margin-left:19px;
+}

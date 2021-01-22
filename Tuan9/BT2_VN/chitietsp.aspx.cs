@@ -1,0 +1,72 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class NguyenThaiBao_BT2_VN_chitietsp : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        Image1.ImageUrl = Request.QueryString["hinh"];
+        Label1.Text = Request.QueryString["name"];
+        Label2.Text = Request.QueryString["masp"];
+
+    }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        DataTable cart = new DataTable();
+        if (Session["cart"] == null)
+        {
+            cart.Columns.Add("ID");
+            cart.Columns.Add("Name");
+            cart.Columns.Add("Price");
+            cart.Columns.Add("Thanh");
+            cart.Columns.Add("Quantity");
+            Session["cart"] = cart;
+        }
+        else
+        {
+            //Lấy thông tin giỏ hàng từ Session["cart"]
+            cart = Session["cart"] as DataTable;
+        }
+        if (!String.IsNullOrEmpty(Request.QueryString["action"]))
+        {
+            if (Request.QueryString["action"] == "add")
+            {
+                string id = Request.QueryString["id"];
+                string name = Request.QueryString["name"];
+                string price = Request.QueryString["price"];
+                string thanh = Request.QueryString["thanh"];
+
+                bool isExisted = false;
+                foreach (DataRow dr in cart.Rows)
+                {
+                    if (dr["ID"].ToString() == id)
+                    {
+                        dr["Quantity"] = int.Parse(dr["Quantity"].ToString()) + 1;
+                        isExisted = true;
+                        break;
+                    }
+                }
+                if (!isExisted)
+                {
+                    DataRow dr = cart.NewRow();
+                    dr["ID"] = id;
+                    dr["Name"] = name;
+                    dr["Price"] = price;
+                    dr["Thanh"] = thanh;
+                    dr["Quantity"] = 1;
+                    cart.Rows.Add(dr);
+                }
+                else
+                    Response.Write("<script language='JavaScript'> alert('Sản phẩm đã có trong giỏ hàng !!'); </script>");
+                Session["cart"] = cart;
+                Session["cart"] = cart;
+
+            }
+        }
+    }
+
+}

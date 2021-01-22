@@ -1,0 +1,82 @@
+﻿.aspmenu * {
+    background-color:white;
+    font-size:16pt;
+    color:black;
+    font-weight:bold;
+    margin:10px;
+}
+
+.aspmenu ul li{
+   border-right:1px solid #C0C0C0;
+}
+
+.menubar {
+    display:table;
+    width:100%;
+    background-color:white;
+    border:1px solid #C0C0C0;
+}
+
+.aspmenu *:hover {
+    color:blue;
+}
+
+.banner {
+    border: 1px solid #C0C0C0;
+}
+
+.timkiem {
+    width: 100%;
+    height: 41px;
+    border: 1px solid #C0C0C0;
+    background-color:#FFC0CB;
+}
+
+#Button1 {
+    border-radius: 5px;
+    float:right;
+    margin-top:10px;
+    margin-right:10px;
+}
+
+#TextBox1 {
+    float: right;
+    margin-top:10px;
+    margin-right:10px;
+}
+
+#MapPath1{
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+.middle {
+    width:100%;
+    height:600px;
+    border: 1px solid #C0C0C0;
+}
+
+.left {
+    width:30%;
+    height:100%;
+    float:left;
+    border-right: 1px dashed #C0C0C0;
+}
+
+.content{
+    width:69.5%;
+    height:100%;
+    float:right;
+}
+
+.footer {
+    background-color:#DCDCDC;
+    text-align:center;
+    font-weight:bold;
+    border:1px solid #C0C0C0;
+}
+
+.footer p {
+    margin:0px;
+}

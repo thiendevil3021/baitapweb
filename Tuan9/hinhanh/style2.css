@@ -1,0 +1,35 @@
+﻿.gallerry {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 380px;
+}
+
+    .gallerry :hover {
+        border: 1px solid #777;
+    }
+
+    .gallerry img {
+        width: 100%;
+        height: auto;
+    }
+
+.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: darkorange;
+}
+
+table {
+    
+}
+
+    table th {
+        border-right: 1px solid black;
+    }
+
+.dh {
+    width: 60px;
+    margin-left: 267px;
+    background-color:darkorange;
+}

@@ -1,0 +1,11 @@
+﻿table {
+    border-bottom:1px solid orange;
+}
+th {
+    background-color: darkorange;
+    color :white ;
+    text-align:center;
+}
+td {
+    text-align:center;
+}

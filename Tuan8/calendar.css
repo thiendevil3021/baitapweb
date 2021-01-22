@@ -1,0 +1,14 @@
+﻿.txtbox *{
+    height: 59px;
+    width: 248px;
+    float:left;
+
+}
+.icon{
+  width:100%;
+  float:none;
+}
+.c{
+    width:100%;
+    float:left;
+}

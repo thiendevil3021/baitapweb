@@ -1,0 +1,11 @@
+﻿.menubar {
+    height: 100px;
+    width: 100%;
+    background-color: #D8BFD8;
+}
+
+.content {
+    height: 400px;
+    width: 100%;
+    background-color: #FFC0CB;
+}

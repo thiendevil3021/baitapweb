@@ -1,0 +1,25 @@
+﻿div{
+    margin-left: 600px;
+    background-color:#68C4F5;
+    width:450px;
+}
+
+#RadioButtonList1{
+    display:inline;
+}
+h2 {
+    width: 100%;
+    text-align: center;
+}
+#CheckBox1,#Button1{
+    margin-left:150px;
+}
+
+#Label1, #Label2, #Label3, #Label4, #Label5 {
+    margin-left: 30px;
+}
+
+.lb {
+    display: inline-block;
+    width: 140px;
+}

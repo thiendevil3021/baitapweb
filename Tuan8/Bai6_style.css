@@ -1,0 +1,7 @@
+﻿.header{
+    text-align:center;
+    background-color:orange;
+}
+.listItem *{
+    width: 182px;
+}

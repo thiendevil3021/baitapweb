@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="StyleSheet.css" type="text/css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="menubar">
+        <asp:Menu runat="server" Orientation="Horizontal" DataSourceID="SiteMapDataSource1" StaticDisplayLevels="2" CssClass="aspmenu">
+        </asp:Menu>
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+    </div>
+    <div class="banner">
+        <img src="bai3.PNG" width="100%" />
+    </div>
+    <div class="timkiem">
+        <asp:SiteMapPath ID="MapPath1" runat="server" Font-Bold="True" ForeColor="#3333CC" Font-Size="X-Large"></asp:SiteMapPath>
+        <asp:Button ID="Button1" runat="server" Text="Search" />
+        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+    </div>
+    <div class="middle">
+        <div class="left">
+            <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource2" ImageSet="Arrows">
+            </asp:TreeView>
+            <asp:SiteMapDataSource ID="SiteMapDataSource2" runat="server" SiteMapProvider="Web2SiteMapProvider" />
+        </div>
+        <div class="content">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright yennh@hufi.edu.vn</p>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Bai1_MasterPage.master.cs" Inherits="Bai1_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="Bai1_style.css" type="text/css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+            <div class="menubar">
+                <asp:Menu runat="server" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Bai1_Home.aspx" Text="HOME"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Bai1_About.aspx" Text="ABOUT"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Bai1_Contact.aspx" Text="CONTACT"></asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="left">
+            <h1>THIS IS LEFT</h1>
+        </div>
+        <div class="center">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="right">
+            <h1>THIS IS RIGHT</h1>
+        </div>
+        <div class="footer">
+            <p>Copyright Information</p>
+        </div>
+    </form>
+</body>
+</html>

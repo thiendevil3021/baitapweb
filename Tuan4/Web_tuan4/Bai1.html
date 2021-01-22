@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>W3.CSS</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+	 footer {
+		 text-align:center;
+		 padding: 5px;
+		 background-color: DarkSalmon;
+		 color: white;
+	}
+	.topnav {
+	  overflow: hidden;
+	  background-color: #333;
+	}
+	.topnav a {
+	  float: left;
+	  display: block;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 20px 75px;
+	  text-decoration: none;
+	}
+
+/* Change color on hover */
+	.topnav a:hover {
+	  background-color: #ddd;
+	  color: black;
+	}
+	ul {
+	  list-style: none; /* Remove HTML bullets */
+	  padding: 0;
+	  margin: 0;
+	}
+
+	li { 
+	  padding-left: 16px; 
+	}
+
+	li::before {
+	  content: "•"; /* Insert content that looks like bullets */
+	  padding-right: 8px;
+	  color: blue; /* Or a color you prefer */
+	}
+	
+</style>
+</head>
+
+<body>
+	<div id="main">
+        <div id="banner">
+        	<img src="images/Capture.PNG">
+		</div>
+		
+		<div class="topnav">
+		  <a href="#">Trang chủ</a>
+		  <a href="#">Diễn đàn</a>
+		  <a href="#">Thư viện</a>
+		  <a href="#">Tài liệu</a>
+		  <a href="#">Tin tức</a>
+		  <a href="#">Thông tin sinh viên</a>
+		</div>
+		
+		<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
+			<h3 class="w3-bar-item">Menu</h3>
+		 	<ul> <a href="#" class="w3-bar-item w3-button">Lua chon 1</a>
+		 		<li>08DH</li>
+				<li>09DH</li>
+				<li>10DH</li>
+			</ul>
+		 	<a href="#" class="w3-bar-item w3-button">Lua chon 2</a>
+		  	<a href="#" class="w3-bar-item w3-button">Lua chon 3</a>
+		</div>
+		<img src="./images/unnamed.png" style="margin-left: 30%">
+	</div>
+
+	
+	<footer>
+		<p>Author: Trương Hoàng Thiện<br>
+	 	<a href="mailto:ththien1002@gmail.com">Gmail cua tui</a></p>
+	</footer>
+</body>
+</html>

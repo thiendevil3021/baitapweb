@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style>
+	ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  width: 200px;
+	  background-color: #f1f1f1;
+		border: 1px solid #555;
+	}
+
+	li a {
+	  display: block;
+	  color: red;
+	  padding: 8px 16px;
+	  text-decoration: none;
+		border: 1px solid #555;
+	}
+
+	/* Change the link color on hover */
+	li a:hover {
+	  background-color: blue;
+	  color: yellow;
+	}
+
+	p:first-child {
+	  color: blue;
+	} 
+	
+	p.intro::first-letter {
+	  color: #ff0000;
+	  font-size: 200%;
+	}  
+	
+</style>
+</head>
+
+<body>
+	<ul>
+	  <li><a class="active" href="#home">Home</a></li>
+	  <li><a href="#news">News</a></li>
+	  <li><a href="#contact">Contact</a></li>
+	  <li><a href="#about">About</a></li>
+	</ul>
+	
+	
+	<p>Đây là Pseudo Class.</p>
+	<p class="intro">Đây là Pseudo element.</p>
+	
+</body>
+</html>

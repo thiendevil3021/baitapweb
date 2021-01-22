@@ -1,0 +1,85 @@
+﻿
+.headder {
+    width: 100%;
+    padding: 16px;
+   
+}
+
+.sidebar {
+   height:558px;
+}
+.icon {
+    width: 21%;
+    float: left;
+    background-color: #EE82EE;
+    padding:10px;
+}
+.detail {
+    width: 75%;
+    background-color: #EE82EE;
+}
+.detail td{
+    font-size:18px;
+    padding-left:10px;
+    color:black;
+}
+
+.dangnhap {
+    padding-top:0px;
+    background-color: darkorange;
+    text-align: center;
+    margin-bottom:0px;
+}
+.dangnhap h1{
+    font-size:20px;
+    color:white;
+}
+#TextBox1  {
+    margin-left:40px;
+}
+#TextBox2 {
+    margin-left:40px;
+}
+.sidebar{
+    background-color:white;
+}
+.middle {
+    background-color: #66CDAA;
+}
+.label{
+    text-align:center;
+    background-color:orange;
+}
+.body{
+    background-color:cornflowerblue;
+    height: 622px;
+}
+.label01{
+    background-color:wheat;
+}
+.footer {
+    background-color:#DA70D6;
+    color: red;
+    text-align:center;
+    font-weight:bold;
+    border:1px solid black;
+    width:1270px;
+    margin-left:15px;
+}
+
+.footer p {
+    margin:0px;
+}
+
+.ViewDK {
+    background-color:#99FFFF;
+}
+.ViewSYLL {
+    background-color:#99FFFF;
+}
+.ViewTonghop {
+    background-color:#99FFFF;
+}
+.middle {
+    border:1px solid black;
+}

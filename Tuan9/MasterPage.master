@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="Bai1.css" type="text/css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="left">
+         <div class="menu">
+             <ul>
+                <li><h3>
+                    Danh Mục Sản Phẩm</h3></li>
+                 <li class="c2">Áo Bé Trai</li>
+                 <li class="c1"><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/HienThiSanPham.aspx?maloai=Áo Thun" >Áo thun </asp:HyperLink></li>
+                 <li class="c1"><asp:HyperLink ID="HyperLink2" runat="server">Áo Khoát</asp:HyperLink></li>
+                 <li class="c1"><asp:HyperLink ID="HyperLink3" runat="server">Áo Sơmi</asp:HyperLink></li>
+                 <li class="c2">Yếm Bé Trai</li>
+                 <li class="c2">Áo Dài Trẻ Em</li>
+                 <li class="c1"><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/HienThiSanPham.aspx?maloai=Áo Dài Bé Gái">Áo dài bé gái</asp:HyperLink></li>
+                 <li class="c1"><asp:HyperLink ID="HyperLink5" runat="server">Áo dài bé trai</asp:HyperLink></li>
+                  <li class="c2">Hàng Quảng Châu</li>
+                 <li class="c2">Giày Trẻ Em</li>
+                  <li class="c2">Giày Bé Trai</li>
+             </ul>
+         </div>
+     </div>
+        <div class="Right1">
+            <img src="logo.PNG" style="height: 50px; float:left; width: 110px;" />
+            <div class="ri">
+            <h2>Sản Phẩm Mới</h2>
+            </div>
+        </div>
+    <div class="right">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

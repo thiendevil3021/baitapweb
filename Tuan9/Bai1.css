@@ -1,0 +1,84 @@
+﻿#form1 {
+    width: 710px;
+    margin:auto;
+    color: white;
+}
+.left {
+    width: 200px;
+    float: left;
+    height: 510px;
+    background: #ff6a00;
+}
+.Right1 {
+    width: 500px;
+    height: 50px;
+    float: left;
+   background: #f59a1c;
+    margin-left: 10px;
+}
+.right {
+    width: 500px;
+    height: 450px;
+    float: left;
+    margin-left: 10px;
+}
+.menu ul {
+    list-style: none;
+     margin-left:-40px;
+}
+.menu ul li {
+    border-bottom: 1px solid white;
+    height: 35px;
+    padding-left: -30px;
+}
+h3 {
+   padding-top: -15px;
+   margin-left: 15px;
+   color: white;
+   text-align: center;
+   height: 34px;
+   font-style:initial;
+}
+.c1{
+    margin-top: 2px;
+    background:#f3c292;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.c2 {
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.ri {
+    background: white;
+   width: 390px;
+   float: right;
+   height: 45px;
+}
+h2 {
+    color: orange;
+    text-align:center;
+    margin-bottom: -5px;
+}
+p {
+    color:black;
+}
+h1 {
+    color:black;
+}
+
+#HyperLink4 {
+    color:white;
+}
+
+#HyperLink1 {
+    color:white;
+}
+
+#Label1 {
+    color: red;
+}
+* {
+text-decoration:none;
+}

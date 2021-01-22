@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="video1.master.cs" Inherits="video1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="makeitsimple.css" type="text/css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .middle {
+            margin-top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+            <div class="banner">
+                <img id="hinh" src="img-share.png" />
+            </div>
+            <div class="menubar">
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Page01.aspx">Page One</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Page02.aspx">Page Two</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Page03.aspx">Page Three</asp:HyperLink>
+            </div>
+        </div>
+
+        <div class="middle">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <br />
+            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        </div>
+
+        <div class="footer">
+            <p>Demo MasterPage</p>
+            <p>By MakeItSimple on June 15 2020</p>
+            <p>Email: tdd.edu.videos@gmail.com</p>
+        </div>
+    </form>
+</body>
+</html>

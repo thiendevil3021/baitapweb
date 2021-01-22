@@ -1,0 +1,43 @@
+﻿.gallerry {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+    .gallerry :hover {
+        border: 1px solid #777;
+    }
+    .gallerry img {
+        width:100%;
+        height:auto;
+
+    }
+.desc{
+    padding:15px;
+    text-align:center;
+    background-color:darkorange;
+}
+table {
+    width:100%;
+}
+table th{
+    border-right:1px solid black;
+}
+.th {
+    width: 60px;
+
+    margin-left: 267px;
+}
+.clear{
+    width:100%;
+}
+
+.quanao {
+    width: 100%;
+    margin:auto;
+}
+
+.giohang {
+    width: 100%;
+    margin-left: 50px;
+}

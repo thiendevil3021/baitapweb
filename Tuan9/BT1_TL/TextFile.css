@@ -1,0 +1,44 @@
+﻿* {
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+text-decoration:none;
+}
+.box-all {
+
+width:900px;
+height:100vh;
+margin:0 auto;
+background:#EEEEEE;
+text-decoration:none;
+
+}
+.box {
+width:100%;
+
+background:#EEEEEE;
+min-height:350px;
+
+
+}
+.container {
+ margin-left:10px;
+width:32%;
+height:255px;
+background:#EEEEEE;
+float:left;
+
+text-align:center;
+align-items:center;
+
+}
+.head {
+background:orange;
+}
+    .head p {
+    color:white;
+    }
+
+.box .container {
+    text-align: center;
+}
